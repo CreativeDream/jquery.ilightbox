@@ -11,7 +11,7 @@ The function is called 'iLightbox'. So just call it ;)
 ~~~ javascript
 
 $('a[data-lightbox-gallery]').iLightbox({
-    type: 'image', //'image', 'inline', 'ajax', 'iframe', 'swf' and 'html'
+    type: 'image', //'image', 'ajax', 'iframe', 'swf' and 'html'
     loop: true,
     arrows: true,
     closeBtn: true,
