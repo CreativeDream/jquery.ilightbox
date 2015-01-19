@@ -1,4 +1,4 @@
-jquery.modal
+jquery-iLightbox
 ================
 
 jQuery Lightbox is a simple port of the popular lightbox script.
@@ -7,7 +7,7 @@ __<a href="http://creativedream.net/plugins/jquery.iLightbox/" target="_blank">D
 
 Usage
 -------
-The function is called 'modal'. So just call it ;)
+The function is called 'iLightbox'. So just call it ;)
 ~~~ javascript
 
 $('a[data-lightbox-gallery]').iLightbox({
