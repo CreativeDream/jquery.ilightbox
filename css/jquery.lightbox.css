@@ -1,0 +1,151 @@
+#iLightbox {
+    z-index: 1010;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+#iLightbox > * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    zoom: 1;
+}
+
+#iLightbox .iLightbox-container {
+    position: absolute;
+    font-family: sans-serif;
+}
+
+#iLightbox .iLightbox-media {
+    position: relative;
+    -webkit-box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 );
+    -moz-box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 );
+    -o-box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 );
+    box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 );
+}
+
+#iLightbox .iLightbox-media img,
+#iLightbox .iLightbox-media iframe,
+#iLightbox .iLightbox-media object {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    vertical-align: top;
+}
+
+#iLightbox .iLightbox-media [class^="iLightbox-btn"] {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    float: left;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+#iLightbox .iLightbox-media [class^="iLightbox-btn"] a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#iLightbox .iLightbox-media [class^="iLightbox-btn"]:hover {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+#iLightbox .iLightbox-media .iLightbox-btnPrev {
+    width: 30%;
+    left: 0;
+    background: url(../images/ilightbox-icons/prev.png) left 50% no-repeat;
+}
+
+#iLightbox .iLightbox-media .iLightbox-btnNext {
+    width: 70%;
+    right: 0;
+    background: url(../images/ilightbox-icons/next.png) right 50% no-repeat;
+}
+
+#iLightbox .iLightbox-media.iLightbox-iframe [class^="iLightbox-btn"] {
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+#iLightbox .iLightbox-details {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #f9f9f9;
+    font-weight: normal;
+    text-shadow: 1px 1px 3px #333;
+    z-index: 5;
+    text-align: center;
+}
+
+#iLightbox .iLightbox-details h3 {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+#iLightbox .iLightbox-container:hover .iLightbox-close {
+    display: block;
+}
+
+#iLightbox .iLightbox-close {
+    position: absolute;
+    display: none;
+    top: 0px;
+    right: 0px;
+    width: 54px;
+    height: 54px;
+    background: url(../images/ilightbox-icons/close.png) center no-repeat;
+    background-size: 28px auto;
+    z-index: 1011;
+    border-bottom-left-radius: 5px;
+    filter: alpha(opacity(40));
+    opacity: 0.4;
+    outline: none;
+}
+
+#iLightbox .iLightbox-close:hover {
+    filter: alpha(opacity(100));
+    opacity: 1;
+}
+
+#iLightbox .iLightbox-loader {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: -16px;
+    margin-top: -16px;
+    background: #fff url(../images/ilightbox-icons/loading.gif) center no-repeat;
+    border-radius: 50%;
+    outline: none;
+    padding: 10px;
+    z-index: 1015;
+    -webkit-box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 );
+    -moz-box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 );
+    -o-box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 );
+    box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 );
+}
+
+#iLightbox .iLightbox-error,
+#iLightbox .iLightbox-content{
+    background: #f0f0f0;
+    padding: 45px 40px;
+}

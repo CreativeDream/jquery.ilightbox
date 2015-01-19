@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery Lightbox | CreativeDream</title>
+    
+    <!--Stylesheets-->
+    <link href="css/jquery.lightbox.css" type="text/css" rel="stylesheet" />
+    
+    <!--jQuery-->
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox.min.js"></script>
+    <script>
+	   $(document).ready(function(e) {
+		    $('a[data-lightbox-gallery]').iLightbox({
+                type: 'image', //'image', 'inline', 'ajax', 'iframe', 'swf' and 'html'
+                loop: true,
+                arrows: true,
+                closeBtn: true,
+                title: null,
+                href: null,
+                content: null,
+                beforeShow: function(a, b){ },
+                onShow: function(a, b){ },
+                beforeClose: function(){ },
+                afterClose: function(){ },
+                onUpdate: function(a){ },
+            });
+       });
+	</script>
+    
+    <style>
+        a{
+            *display: block;
+        }
+        img{
+            max-height: 250px;
+            margin-bottom: 10px;
+        }
+    </style>
+    
+    <!--[if IE]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+          
+    <![endif]-->
+</head>
+
+<body>
+    <h1>jQuery Lightbox 0.1</h1>
+    <p>Simple Lightbox</p>
+    <a href="https://github.com/CreativeDream/jquery-iLightbox" target="_blank">Download 0.1</a>
+    <hr />
+    <h3>Demo:</h3>
+    
+    <!-- Images -->
+    <div id="main" align="center">
+        <a href="http://www.lifelenta.ru/images/uploads/files/FE4kxj8ylCwmc.jpg" data-lightbox-title="Simple Title" data-lightbox-gallery="gallery">
+            <img src="http://www.lifelenta.ru/images/uploads/files/FE4kxj8ylCwmc.jpg" />
+        </a>
+        <a href="http://www.lifelenta.ru/images/uploads/cs41/Nt1cVeiuHds5I.jpg" data-lightbox-gallery="gallery">
+            <img src="http://www.lifelenta.ru/images/uploads/cs41/Nt1cVeiuHds5I.jpg" />
+        </a>
+        <a href="http://www.lifelenta.ru/images/uploads/sd15/ufZqKAmcQnIt8.jpg" data-lightbox-gallery="gallery">
+            <img src="http://www.lifelenta.ru/images/uploads/sd15/ufZqKAmcQnIt8.jpg" />
+        </a>
+        <a href="https://www.youtube.com/embed/84NI5fjTfpQ?autoplay=1" data-lightbox-gallery="gallery" data-lightbox-type="iframe">
+            <img src="http://www.lifelenta.ru/images/uploads/files/kNfza5eZV0xwd.jpg" />
+        </a>
+        <a href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf" data-lightbox-gallery="gallery" data-lightbox-type="swf">SWF</a>
+    </div>
+    
+    <br />
+    <h4>This script is including:</h4>
+    <ul>
+      <li>Jquery Code - <i>jquery.lightbox.min.js</i></li>
+      <li>CSS Code - <i>jquery.lightbox.css</i></li>
+    </ul> 
+    <h4>This script Requires:</h4>
+    <ul>
+      <li>Jquery library - <i>jquery-1.8.2.min.js</i></li>
+    </ul>
+    <br />
+    &copy; 2014 <b>CreativeDream</b>.
+</body>
+</html>
