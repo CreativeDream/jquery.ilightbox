@@ -1,4 +1,4 @@
-jquery-iLightbox
+jquery-iLightbox 0.1
 ================
 
 jQuery Lightbox is a simple port of the popular lightbox script.
