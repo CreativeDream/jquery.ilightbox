@@ -62,8 +62,6 @@ __manual Options:__
 * $.iLightbox.close()
 
 __attribute Options:__
-
-Form element attributes:
 * data-lightbox-gallery | name of gallery
 * data-lightbox-title | media title
 * data-lightbox-title | type of media
