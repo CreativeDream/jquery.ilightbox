@@ -42,9 +42,32 @@ $(document).ready(function() {
 		beforeClose: function() {},
 		afterClose: function() {},
 		onUpdate: function(a) {},
+		template: {
+			container: '<div class="iLightbox-container"></div>',
+			image: '<div class="iLightbox-media"></div>',
+			iframe: '<div class="iLightbox-media iLightbox-iframe"></div>',
+			title: '<div class="iLightbox-details"></div>',
+			error: '<div class="iLightbox-error">The requested content cannot be loaded.<br/>Please try again later.</div>',
+			closeBtn: '<a href="#" class="iLightbox-close"></a>',
+			prevBtn: '<div class="iLightbox-btnPrev"><a href="javascript:;"></a></div>',
+			nextBtn: '<div class="iLightbox-btnNext"><a href="javascript:;"></a></div>'
+		}
 	});
 });
 ~~~~
+
+Features
+-------
+__manual Options:__
+* $.iLightbox.close()
+
+__attribute Options:__
+
+Form element attributes:
+* data-lightbox-gallery | name of gallery
+* data-lightbox-title | media title
+* data-lightbox-title | type of media
+* data-lightbox-content | media content
 
 License
 -------
