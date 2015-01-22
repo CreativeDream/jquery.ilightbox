@@ -1,0 +1,19 @@
+{
+  "name": "jquery.iLightbox",
+  "version": "0.1",
+  "main": "js/jquery.iLightbox.min.js",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test"
+  ],
+  "homepage": "https://github.com/CreativeDream/jquery.iLightbox",
+  "authors": [
+    "CreativeDream <yuliangagarin@mail.ru>"
+  ],
+  "description": "jQuery Lightbox is a simple port of the popular lightbox script.",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">= 1.7.2"
+  }
+}
