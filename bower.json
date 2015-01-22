@@ -1,5 +1,5 @@
 {
-  "name": "jquery.iLightbox",
+  "name": "jquery.ilightbox",
   "version": "0.1",
   "main": "js/jquery.iLightbox.min.js",
   "ignore": [
@@ -7,7 +7,7 @@
     "bower_components",
     "test"
   ],
-  "homepage": "https://github.com/CreativeDream/jquery.iLightbox",
+  "homepage": "https://github.com/CreativeDream/jquery.ilightbox",
   "authors": [
     "CreativeDream <yuliangagarin@mail.ru>"
   ],
