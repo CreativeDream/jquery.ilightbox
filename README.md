@@ -3,7 +3,7 @@ jquery-iLightbox 0.1
 
 jQuery Lightbox is a simple port of the popular lightbox script.
 
-__<a href="http://creativedream.net/plugins/jquery.iLightbox/" target="_blank">Demo Page</a>__
+__<a href=http://grandesign.md/__cr/plugins/jquery.iLightbox/" target="_blank">Demo Page</a>__
 
 Usage
 -------
